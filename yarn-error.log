@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add webpack webpack-dev-serve --save
+
+PATH: 
+  D:\SDK\Python39\Scripts\;D:\SDK\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;d:\Program Files\Microsoft VS Code\bin;C:\Users\wangyuanli\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\wangyuanli\AppData\Local\Android\Sdk\platform-tools;C:\Users\wangyuanli\AppData\Local\Android\Sdk\emulator;C:\Users\wangyuanli\AppData\Local\Android\Sdk\tools;C:\Users\wangyuanli\AppData\Local\Android\Sdk\tools\bin;C:\Users\wangyuanli\AppData\Local\Microsoft\WindowsApps;C:\Users\wangyuanli\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/webpack-dev-serve: Not found
+      at Request.params.callback [as _callback] (C:\Users\wangyuanli\AppData\Roaming\nvm\v14.16.1\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\wangyuanli\AppData\Roaming\nvm\v14.16.1\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\wangyuanli\AppData\Roaming\nvm\v14.16.1\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\wangyuanli\AppData\Roaming\nvm\v14.16.1\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "webpack-init",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
