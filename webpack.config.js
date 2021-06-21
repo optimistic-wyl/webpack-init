@@ -1,5 +1,24 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
+
+/*
+************************
+ 产生Chunk的三种途径
+    entry入口
+    异步加载模块
+    代码分割（code spliting）
+*************************
+
+*************************
+    output.filename 决定了每个入口(entry) 输出 bundle 的名称。
+    output.chunkFilename 决定了非入口(non-entry) chunk 文件的名称。
+*************************
+
+    首屏加载的JS资源地址是通过页面中的script标签来指定的，
+    而间接资源（通过首屏JS再进一步加载的JS）的位置则要通过output.publicPath来指定,
+    就是说非页面首次引用的资源通过output.publicPath指定，如动态加载的资源
+
+*/
 module.exports = {
     mode: 'development',
     entry: {
